@@ -76,7 +76,7 @@ function add_navbar(){
     $('body').append('<div id="navbar_div">\
     <a class = "home_button">MealSnag</a>\
     <a class = "pass_log">Meal Plans</a>\
-    <a class = "pilot_log">Need to Cook</a>\
+    <a class = "pilot_log">Cookin Time</a>\
     <a class = "twitter_log"></a>\
     <a class = "login_button">Log in</a>\
     <a class = "user">guest</a>\
@@ -123,7 +123,7 @@ function add_pilotpage(){
 
 function add_loginpage(){
     $('body').append('<div class = "background_div3"></div>')
-    $('.background_div3').append('<div class="login_div">Log into to Fluber<br>\
+    $('.background_div3').append('<div class="login_div">Log into MealSnag<br>\
     <input type="text" tabindex="3" class = "textbox" id="login_user" placeholder = "Username"><br>\
     <input type="password" tabindex="2" class = "textbox" id="login_pass" placeholder = "Password"><br>\
     <button tabindex="1" id="login_btn">Log in</button>\
@@ -172,18 +172,8 @@ function add_pilot_div(){
     $('body').append('<div class = background_div></div>');
     $('.background_div').append('<div class = base_div_pilot></div>');
     $('.base_div_pilot').append('<div class="">\
-    <div class = "title">Create and Captain a Flight</div><br>\
-    <input type="text" class = "textbox searchbox" id="from" placeholder = "Flying From">\
-    <input type="text" class = "textbox searchbox" id = "to"  placeholder = "Flying To"><br>\
-    <input type="time" class = "textbox searchbox d_time" id = "departure">\
-    <text class="depart_text">- Departure Time</text><br>\
-    <input type="time" class = "textbox searchbox a_time" id = "arrival">\
-    <text class="depart_text">- Arrival Time</text><br>\
-    <input type="date" class = "textbox searchbox d_date" id = "date">\
-    <text class="depart_text">- Date</text><br>\
-    <button id="Search_btn">Create</button>\
-    <div id ="mesg_div"</div>\
-  </div>')
+    <div class = "title">Choose Your Menu</div><br>\
+  </div>');
   autocomplete(document.getElementById("from"), airport_names);
   autocomplete(document.getElementById("to"), airport_names);
 }
