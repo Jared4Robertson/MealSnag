@@ -180,11 +180,12 @@ function add_pilot_div(){
 function add_pass_div(){
     $('body').append('<div class = background_div2></div>');
     $('.background_div2').append('<div class = base_div_passenger></div>');
-    $('.base_div_passenger').append('<div class = meal>3 meal week  only $3.85 per serving!! -<br> ---Barbeque Chicken Cornbread Skillet -- 4 servings <br>\
-     ---Chicken Breasts with Chipotle Green Onion Gravy - 4 servings <br> \
-     ---Szechwan Shrimp - 4 meals-- 4 servings</div>');
+    $('.base_div_passenger').append('<div class = meal>3 meal week  only $3.85 per serving!! Save $42.02 this week vs Blue Apron<br> -----Barbeque Chicken Cornbread Skillet -- 4 servings <br>\
+     -----Chicken Breasts with Chipotle Green Onion Gravy - 4 servings <br> \
+     -----Szechwan Shrimp - 4 meals-- 4 servings<br>\
+     -Perishables and other ingredients are shared amongst recipes to key prices down. No more food waste!</div>');
      $('.base_div_passenger').append('<div class="meal">\
-     ---Click here\
+     -Click here\
      <a href="https://grocery.walmart.com/?&adid=22222222420331719495&wmlspartner=wmtlabs&wl0=e&wl1=g&wl2=c&wl3=294099343363&wl4=aud-300526414947:kwd-667579415&wl5=1021047&wl6=&wl7=9060502&wl8=&wl9=&wl10=&wl11=&wl12=&wl13=&veh=sem_br&gclid=Cj0KCQiAnY_jBRDdARIsAIEqpJ06UDnkm7U9Q8VDYuE5PFsM27okslVLe5GVJfUQzFTzODqyYNNDnrkaArRZEALw_wcB">link</a>\
    </div>')
     
