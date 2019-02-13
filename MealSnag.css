@@ -222,9 +222,10 @@ body{
     background-image: url(https://www.eatright.org/-/media/eatrightimages/food/planningandprep/snackandmealideas/5quickandhealthymealswithoutusingthestove.jpg?h=450&w=600&la=en&hash=A964C58F2B466A4BC1DB972DD580372FF70C5B48);
     background-size: 100% 100%;
 }
-.depart_text{
+.meal{
     margin-left: 25px;
     margin-right: 25px;
+    font-size: 20pt;
     color: white;
 }
 .depart_text2{
