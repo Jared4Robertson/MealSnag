@@ -123,7 +123,7 @@ function add_pilotpage(){
 
 function add_loginpage(){
     $('body').append('<div class = "background_div3"></div>')
-    $('.background_div3').append('<div class="login_div">Log into to Fluber<br>\
+    $('.background_div3').append('<div class="login_div">Log into MealSnag<br>\
     <input type="text" tabindex="3" class = "textbox" id="login_user" placeholder = "Username"><br>\
     <input type="password" tabindex="2" class = "textbox" id="login_pass" placeholder = "Password"><br>\
     <button tabindex="1" id="login_btn">Log in</button>\
