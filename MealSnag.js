@@ -74,26 +74,28 @@ function add_twitterpage() {
 }
 function add_navbar(){
     $('body').append('<div id="navbar_div">\
-    <a class = "home_button">FLUBER</a>\
-    <a class = "pass_log">Passenger</a>\
-    <a class = "pilot_log">Pilot</a>\
-    <a class = "twitter_log">Twitter</a>\
-    <a class = "login_button">'+log_label+'</a>\
-    <a class = "user">'+login_name+'</a>\
-</div>')
+    <a class = "home_button">MealSnag</a>\
+    <a class = "pass_log">Meal Plans</a>\
+    <a class = "pilot_log">Need to Cook</a>\
+    <a class = "twitter_log"></a>\
+    <a class = "login_button">Log in</a>\
+    <a class = "user">guest</a>\
+')
 }
 
 function add_homepage(){
-    $('body').append( $('body').append('<div id="Passenger_login_div"> \
-    <div class = "Advertisement"><br>Fly The Way <br> You Want</div>\
-        <div class="button_holder1">Find and Book a Flight<br><br><br><br> \
-        <div class = "blue_button pass_log">Passenger</div></div>\
-        <div class = "button_holder2">Captain an Aircraft<br><br><br><br>\
-        <div class = "blue_button pilot_log">Pilot</div></div>\
-      </div>\
-      <div id="mesg_div"></div>\
-      <div id="Pilot_login_div">\
-      </div>'))
+    $('body').append('</div>\
+        <div id="Passenger_login_div">\
+        <div class = "Advertisement"><br>Cook the Way <br> You Want</div>\
+    <div class="button_holder1">Order Meal Plan<br><br><br><br>\
+        \
+    <div class = "blue_button pass_log">Meals</div></div>\
+    <div class = "button_holder2">Lets Get Cookin<br><br><br><br>\
+        \
+    <div class = "blue_button pilot_log">Cookbook</div></div>\
+  </div>\
+  <div id="mesg_div"></div>\
+  <div id="Pilot_login_div">')
 }
 
 function add_passpage(){
