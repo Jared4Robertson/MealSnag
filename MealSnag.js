@@ -86,7 +86,7 @@ function add_navbar(){
 function add_homepage(){
     $('body').append('</div>\
         <div id="Passenger_login_div">\
-        <div class = "Advertisement"><br>Cook the Way <br> You Want</div>\
+        <div class = "Advertisement">Snag Meals<br>Save Time and Money</div>\
     <div class="button_holder1">Order Meal Plan<br><br><br><br>\
         \
     <div class = "blue_button pass_log">Meals</div></div>\
@@ -172,7 +172,10 @@ function add_pilot_div(){
     $('body').append('<div class = background_div></div>');
     $('.background_div').append('<div class = base_div_pilot></div>');
     $('.base_div_pilot').append('<div class="">\
-    <div class = "title">Choose Your Menu</div><br>\
+    <div class = "title">Recipes That You Have Ordered And Need To Cook</div><br><br>\
+    <a class="depart_text" href="https://www.delish.com/cooking/recipe-ideas/recipes/a47312/bbq-chicken-cornbread-skillet-recipe/">Barbeque Chicken Cornbread Skillet</a><br>\
+    <a class="depart_text" href="https://www.allrecipes.com/recipe/221080/chicken-breasts-with-chipotle-green-onion-gravy/?internalSource=hub%20recipe&referringContentType=Search">Chicken Breasts with Chipotle Green Onion Gravy</a><br>\
+    <a class="depart_text" href="https://www.allrecipes.com/recipe/86230/szechwan-shrimp/?internalSource=hub%20recipe&referringContentType=Search">Szechwan Shrimp</a><br>\
   </div>');
   autocomplete(document.getElementById("from"), airport_names);
   autocomplete(document.getElementById("to"), airport_names);
